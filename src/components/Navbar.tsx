@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 
-//const pages = ['Home', 'Search'];
+// const pages = ['Home', 'Search'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const pages = [
@@ -65,8 +65,9 @@ function Navbar() {
           >
             SpecChecker
           </Typography>
-
+          
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -75,7 +76,7 @@ function Navbar() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-            </IconButton>
+            </IconButton> 
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
@@ -123,7 +124,7 @@ function Navbar() {
                               <Button
                               key={page.name}
                               onClick={handleCloseNavMenu}
-                              href={page.name}
+                              href={page.href}
                               sx={{ my: 2, color: 'white', display: 'block' }}
                             >
                               {page.name}
