@@ -1,10 +1,9 @@
 import React from 'react';
+import FrontCard from './FrontCard';
 
 function Home() {
     return (
-        <div>
-            Country road, take me home!
-        </div>
+        <FrontCard />
     )
 }
 
