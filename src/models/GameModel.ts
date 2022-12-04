@@ -4,16 +4,6 @@ export interface PcRequirements {
     recommended: string;
 }
 
-export interface MacRequirements {
-    minimum: string;
-    recommended: string;
-}
-
-export interface LinuxRequirements {
-    minimum: string;
-    recommended: string;
-}
-
 export interface Data {
     type: string;
     name: string;
@@ -30,8 +20,6 @@ export interface Data {
     header_image: string;
     website: string;
     pc_requirements: PcRequirements;
-    mac_requirements: MacRequirements;
-    linux_requirements: LinuxRequirements;
     legal_notice: string;
     drm_notice: string;
 }
