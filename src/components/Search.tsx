@@ -1,10 +1,7 @@
-import { Box, Grid } from '@mui/material';
-import React from 'react';
+import { Box } from '@mui/material';
 import Asynchronous from './AsynchronousSearch';
-import { createTheme } from "@mui/material/styles";
 
 function Search() {
-    //const classes = useStyles()
     return (
         <Box
         display="flex" 
