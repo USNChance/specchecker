@@ -32,6 +32,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 As stated above, this portion of the project that runs on React.ts utilizes VS code.\
 The specChecker API utilizes Visual Studio Community 2022 and make sure you install the optional packages of .NET desktop development & Node.js development.\
 In order to run this project, the following steps will assume you have the above completed.\
+
 ## 1) Execute the npm start command in VS code to start the front-end portion of the project.
 ## 2) Please go to https://steamcommunity.com/dev/apikey to get yourself a Steam API key, and insert your registered key to <add key="steamApiKey" value="" /> inside the app.config file.
 ## 3) Start the specChecker API in Community by selecting the run button at the top of the screen. specChecker_scrapper should already be selected and changing this will also change the port of the API.
