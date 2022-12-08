@@ -32,10 +32,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 As stated above, this portion of the project that runs on React.ts utilizes VS code.\
 The specChecker API utilizes Visual Studio Community 2022 and make sure you install the optional packages of .NET desktop development & Node.js development.\
 In order to run this project, the following steps will assume you have the above completed.
-## 1) Execute the npm start command in VS code to start the front-end portion of the project.
-## 2) Please go to https://steamcommunity.com/dev/apikey to get yourself a Steam API key, and insert your registered key to the value="" inside the app.config file.
-## 3) Start the specChecker API in Community by selecting the run button at the top of the screen. specChecker_scrapper should already be selected and changing this will also change the port of the API.
-## 4) Once a swagger UI window opens up, similar to the React window that appears after step 1, you are able to perform the appropriate searches for games and specs. After each search, you need to click the X to clear the stored data to perform another safe search.
+## 1) Execute the npm start command in VS Code to start the front-end portion of the project.
+## 2) Open the specChecker API in Visual Studio Community 2022.
+## 3) Please go to https://steamcommunity.com/dev/apikey to get yourself a Steam API key, and insert your registered key to the value="" inside the app.config file in the specChecker API.
+## 4) Start the specChecker API in Community by selecting the run button at the top of the screen. specChecker_scrapper should already be selected and changing this will also change the port of the API.
+## 5) Once a swagger UI window opens up, similar to the React window that appears after step 1, you are able to perform the appropriate searches for games and specs. After each search, you need to click the X to clear the stored data to perform another safe search.
 
 ## Learn More
 
